@@ -9,6 +9,8 @@ int hasNext(DIR *dir);
 char *workingDir = "./";
 char dirTree[500] = "";
 
+int colorfulText = 0; //todo: add option for color for text (green for directory, etc)
+
 int main(int argc, char* argv[]){
     
     if(handleArgs (argc, argv)!= 0){
